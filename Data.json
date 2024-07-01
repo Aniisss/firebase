@@ -1,0 +1,137 @@
+{
+        "Article": {
+          "id": "String",
+          "photos": "?",
+          "title": "String",
+          "catégorie": "String",
+          "brand": "Array",
+          "style": "Array",
+          "state": "Array",
+          "size": "Array",
+          "era": "Array",
+          "season": "Array",
+          "madeIn": "Array",
+          "material": "Array",
+          "colors": "Array",
+          "pattern": "Array",
+          "description": "String",
+          "favoris": "Number or Boolean",
+          "cocos": "Number",
+          "habits": "Array",
+          "hobbies": "Array",
+          "categoryDetails": {
+            "hauts/robes/combinaisons": {
+              "collar": "Array",
+              "length": "Array",
+              "sleevesLength": "Array",
+              "volume": "Array",
+              "details": "Array"
+            },
+            "bas": {
+              "volume": "Array",
+              "waistHeight": "Array",
+              "legLength": "Array",
+              "details": "Array"
+            },
+            "chaussures": {
+              "heelHeight": "Array",
+              "height": "Array",
+              "heelShape": "Array",
+              "toeShape": "Array",
+              "details": "Array"
+            },
+            "sacs": {
+              "shape": "Array",
+              "size": "Array",
+              "details": "Array",
+              "closingType": "Array",
+              "handleAndWrist": "Array"
+            },
+            "accessoires": {
+              "details": "Array",
+              "shape": "Array",
+              "height": "Array",
+              "length": "Array"
+            }
+          }
+        
+
+          
+      },
+
+
+    "Review": {
+      "comment": "String",
+      "note": "Number",
+      "total": "Number"
+    },
+  
+
+    "Quiz": {
+      "habits": "Array",
+      "hobbies": "Array",
+      "brands": "Array",
+      "sizing": "Array",
+      "stylesAndTrends": {
+        "stylesAndTrends": "Array",
+        "top1": "String",
+        "top2": "String",
+        "top3": "String"
+      }
+    },
+  
+
+  "User": {
+    "username": "String",
+    "email": "String",
+    "password": "String",
+    "token": "String",
+    "surname": "String",
+    "firstName": "String",
+    "gender": "String",
+    "size": "Number",
+    "dateOfBirth": "Date",
+    "profilPic": "Array",
+    "bio": "String",
+    "responseTime": "Number",
+    "location": "?",
+    "wallet": "Number",
+    "products": "Number",
+    "mode": "String",
+
+    "favorites": {
+      "total": "Number",
+      "soldOut": "Boolean"
+    },
+
+    "alerts": {
+      "total": "Number",
+      "unread": "Number"
+    },
+
+    "messages": {
+      "total": "Number",
+      "unread": "Number"
+    },
+
+    "transactions": {
+      "total": "Number",
+      "sales": "Number",
+      "purchases": "Number"
+    },
+
+    "adresse": {
+      "street": "String",
+      "zipCode": "Number",
+      "city": "String"
+    },
+
+    "network": {
+      "followers": "Array",
+      "following": "Array"
+    },
+    "article_ids": ["String"],  
+    "review_ids": ["String"],   
+    "quiz_ids": ["String"]      
+  }
+}
